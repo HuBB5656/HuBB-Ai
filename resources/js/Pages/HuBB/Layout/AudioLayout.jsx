@@ -7,7 +7,7 @@ import { Head } from "@inertiajs/react";
 function AudioLayout({ children }) {
     return (
         <div className=" w-screen min-h-screen text-xs bg-main-bg text-hot-color font-mono">
-            <Head title="Audios" />
+            <Head title="Ai" />
             <AppBar />
             <div className="content flex p-2 gap-4">
                 <SideBar />
