@@ -13,7 +13,7 @@ function AudioLayout({ children }) {
                 <SideBar />
                 <div className=" w-full">{children}</div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

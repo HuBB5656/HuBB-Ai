@@ -31,7 +31,7 @@ class ChatController extends Controller
         ]
        ])->json('choices.0.message');
 
-    //    dd($response);
+        // return $response;
         return Inertia::render('HuBB/App/Index',['response' => $response]);
     }
 }
